@@ -40,8 +40,8 @@ Next you will connect your VM using RDP(Remote Desktop Protocol), which allows y
   
 </p>
 <p>
-Now we will download
-</p>
+Now within the VM we are going to download the osTicket installation files and upzip them onto the desktop. These files are going to be used to install osTicket on the VM
+(https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)</p>
 <br />
 
 <p>
