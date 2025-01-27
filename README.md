@@ -34,7 +34,6 @@ First we will need to create a resource group and a VM(virtual machine) in Micro
 Next you will connect your VM using RDP(Remote Desktop Protocol), which allows you to remotely connect to devices on a network. You will use the VM's public IPv4 address to connect. If you're using a Mac you will need to download the Windows App and then connect your VM.
 </p>
 
-<p>
   
 ![image](https://github.com/user-attachments/assets/190e832e-c429-427c-8899-b98e53a5d603)
   
@@ -46,12 +45,11 @@ This link will provide you with all the resources you will need to install osTic
 
 ![image](https://github.com/user-attachments/assets/c5b3ad78-2009-4338-9f3d-c0c1f5f4f0dc)
 
-
+<br />
   
 </p>
 <p>
 We will now enable IIS(Internet Information Services) which is a web server software, it allows you to deploy and manage websites. We are also going to enable CGI(Common Gateway Interface), this interface helps web servers to interact with other software like scripts. So to enable them you are going to navigate to the control panel > click on uninstall a program. Then on the left side of the screen you're going to click Turn Windows features on or off. When a window pops up, you're going to check the box that has IIS(Internet Information Services). You will now expand the IIS box and navigate to CGI as follows. World Wide Services > Applications Development Features > CGI.
-</p>
 
 <br />
 
@@ -74,6 +72,11 @@ Next we will install osTicket from the osTicket installation files folder and ex
 <br />
 
 ![image](https://github.com/user-attachments/assets/2d7a937d-c3cd-4843-8da4-bf2d5a99f3a5)
+<br />
 
 
 We will now load the osTicket site in our web browser. Open the IIS manager and restart the server. Then in IIS manager you will navigate to Sites > Default > osTicket. On the right will click “Browse *:80” and that will open the osTicket web browser.
+<br />
+
+
+![image](https://github.com/user-attachments/assets/e5f389d4-9e33-4a52-970a-eb4d019097ff)
