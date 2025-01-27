@@ -97,3 +97,17 @@ Now we're going to rename a file that's inside the osTicket folder which is (C:\
 
 
 ![image](https://github.com/user-attachments/assets/bccd2cad-e4cd-4a6a-a5ca-f31300370543)
+
+
+Next we will continue setting up osTicket by clicking continue. Then fill out all information to your desired preference. We will also download HeidiSQL from the osTicket installation folder. This application will allow us to make a connection with our database.
+<br />
+
+
+![image](https://github.com/user-attachments/assets/be5a2423-dde6-4797-96e2-5e6ca30c7134)
+
+
+Now we're going to make a connection and setup a database named osTicket using HeidiSQL. So we will launch HeididSQL, create a new session and use "root" as the username and password. Then we will click open to connect to the database and create a database called osTicket.
+
+
+![image](https://github.com/user-attachments/assets/5cb73461-1b92-4dfb-8abb-6d09ae3f678c)
+
