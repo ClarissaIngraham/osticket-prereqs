@@ -67,3 +67,10 @@ From the osTicket folder, we are going to install PHP Manager for IIS, Rewrite M
 
 ![image](https://github.com/user-attachments/assets/239feb65-9801-47bd-b5fa-1d298fd0d0d7)
 
+<br />
+
+Next we will install osTicket from the osTicket installation files folder and extract the files. Copy the "upload" folder to C:\inetpub\wwwroot, then rename the folder to "osTicket."
+
+<br />
+
+![image](https://github.com/user-attachments/assets/2d7a937d-c3cd-4843-8da4-bf2d5a99f3a5)
