@@ -75,8 +75,25 @@ Next we will install osTicket from the osTicket installation files folder and ex
 <br />
 
 
+
+
 We will now load the osTicket site in our web browser. Open the IIS manager and restart the server. Then in IIS manager you will navigate to Sites > Default > osTicket. On the right will click “Browse *:80” and that will open the osTicket web browser.
 <br />
 
 
 ![image](https://github.com/user-attachments/assets/e5f389d4-9e33-4a52-970a-eb4d019097ff)
+<br />
+
+
+Then we will go back into IIS manager and enable some extentions that was not enabled upon startup. Navigate to Sites > Default > osTicket, double click on PHP manager. Then select enable or disable an extention. From there you will find the extentions,  php_imap.dll, php_intl.dll, php_opcache.dll, you will right click them and click enable.
+<br />
+
+
+![Screen Shot 2025-01-26 at 9 26 25 PM](https://github.com/user-attachments/assets/25dd94e1-4e48-42cd-beb4-5b39a44c0cc4)
+<br />
+
+
+Now we're going to rename a file that's inside the osTicket folder which is (C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php) to (C:\inetpub\wwwroot\osTicket\include\ost-config.php). Then we will make sure osTicket has access to make changes to this folder as well. To do this we will disable inheritance from the Advanced Secrity Settings section in the ostconfig.php file and set new permission to grant to full access to "everyone."
+
+
+![image](https://github.com/user-attachments/assets/bccd2cad-e4cd-4a6a-a5ca-f31300370543)
