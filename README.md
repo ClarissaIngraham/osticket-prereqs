@@ -33,7 +33,7 @@ First we will need to create a resource group and a VM(virtual machine) in Micro
 <p>
 Next you will connect your VM using RDP(Remote Desktop Protocol), which allows you to remotely connect to devices on a network. You will use the VM's public IPv4 address to connect. If you're using a Mac you will need to download the Windows App and then connect your VM.
 </p>
-<br />
+
 <p>
   
 ![image](https://github.com/user-attachments/assets/190e832e-c429-427c-8899-b98e53a5d603)
@@ -52,10 +52,16 @@ This link will provide you with all the resources you will need to install osTic
 <p>
 We will now enable IIS(Internet Information Services) which is a web server software, it allows you to deploy and manage websites. We are also going to enable CGI(Common Gateway Interface), this interface helps web servers to interact with other software like scripts. So to enable them you are going to navigate to the control panel > click on uninstall a program. Then on the left side of the screen you're going to click Turn Windows features on or off. When a window pops up, you're going to check the box that has IIS(Internet Information Services). You will now expand the IIS box and navigate to CGI as follows. World Wide Services > Applications Development Features > CGI.
 </p>
+
 <br />
 
 ![image](https://github.com/user-attachments/assets/86cdebcb-b0eb-450d-a2d3-7d74b9e55fe8)
 
 
 ![image](https://github.com/user-attachments/assets/28ed1b7a-7239-48ee-8407-8d44ba47407b)
+<br />
 
+From the osTicket folder, we are going to install PHP Manager for IIS, Rewrite Module, and VC redist. These are some of the requirements needed to have osTicket run smoothly.
+
+
+![image](https://github.com/user-attachments/assets/1b4cb8a4-ef61-4122-bc75-96bbfb3cc646)
