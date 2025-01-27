@@ -111,3 +111,16 @@ Now we're going to make a connection and setup a database named osTicket using H
 
 ![image](https://github.com/user-attachments/assets/5cb73461-1b92-4dfb-8abb-6d09ae3f678c)
 
+
+Next we will process to setting up osTicket in the browser. You will continue to fill out the database section as follows, 
+
+MySQL Database: osTicket 
+
+MySQL Username: root 
+
+MySQL Password: root
+
+Then you will click "Install Now", if everything went as planned you will now have osTicket installed. Congratulations!!!!
+
+
+![image](https://github.com/user-attachments/assets/086da4d4-760a-4b10-a904-f99dfa0b904c)
