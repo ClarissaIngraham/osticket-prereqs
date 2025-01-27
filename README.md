@@ -74,3 +74,6 @@ Next we will install osTicket from the osTicket installation files folder and ex
 <br />
 
 ![image](https://github.com/user-attachments/assets/2d7a937d-c3cd-4843-8da4-bf2d5a99f3a5)
+
+
+We will now load the osTicket site in our web browser. Open the IIS manager and restart the server. Then in IIS manager you will navigate to Sites > Default > osTicket. On the right will click “Browse *:80” and that will open the osTicket web browser.
