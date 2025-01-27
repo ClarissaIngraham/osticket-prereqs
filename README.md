@@ -59,9 +59,11 @@ We will now enable IIS(Internet Information Services) which is a web server soft
 
 
 ![image](https://github.com/user-attachments/assets/28ed1b7a-7239-48ee-8407-8d44ba47407b)
+
 <br />
 
-From the osTicket folder, we are going to install PHP Manager for IIS, Rewrite Module, and VC redist. These are some of the requirements needed to have osTicket run smoothly.
+From the osTicket folder, we are going to install PHP Manager for IIS, Rewrite Module, VC redist and MySQL 5.5.62. These are some of the requirements needed to have osTicket run smoothly. Then we will create a new folder named PHP and unzip the PHP 7.3.8 files from the osTicket installation folder into the new PHP folder.
 
 
-![image](https://github.com/user-attachments/assets/1b4cb8a4-ef61-4122-bc75-96bbfb3cc646)
+![image](https://github.com/user-attachments/assets/239feb65-9801-47bd-b5fa-1d298fd0d0d7)
+
