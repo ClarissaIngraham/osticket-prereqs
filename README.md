@@ -93,7 +93,7 @@ Then we will go back into IIS manager and enable some extentions that was not en
 <br />
 
 
-Now we're going to rename a file that's inside the osTicket folder which is (C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php) to (C:\inetpub\wwwroot\osTicket\include\ost-config.php). Then we will make sure osTicket has access to make changes to this folder as well. To do this we will disable inheritance from the Advanced Secrity Settings section in the ostconfig.php file and set new permission to grant to full access to "everyone."
+Now we're going to rename a file that's inside the osTicket folder which is (C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php) to (C:\inetpub\wwwroot\osTicket\include\ost-config.php). Then we will make sure osTicket has access to make changes to this folder as well. To do this we will disable inheritance from the Advanced Security Settings section in the ostconfig.php file and set new permission to grant full access to "everyone."
 
 
 ![image](https://github.com/user-attachments/assets/bccd2cad-e4cd-4a6a-a5ca-f31300370543)
