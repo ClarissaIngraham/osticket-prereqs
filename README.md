@@ -112,7 +112,7 @@ Now we're going to make a connection and setup a database named osTicket using H
 ![image](https://github.com/user-attachments/assets/5cb73461-1b92-4dfb-8abb-6d09ae3f678c)
 
 
-Next we will process to setting up osTicket in the browser. You will continue to fill out the database section as follows, 
+Next we will proceed to setting up osTicket in the browser. You will continue to fill out the database section as follows, 
 
 MySQL Database: osTicket 
 
