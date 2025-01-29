@@ -106,7 +106,7 @@ Next we will continue setting up osTicket by clicking continue. Then fill out al
 ![image](https://github.com/user-attachments/assets/be5a2423-dde6-4797-96e2-5e6ca30c7134)
 
 
-Now we're going to make a connection and setup a database named osTicket using HeidiSQL. So we will launch HeididSQL, create a new session and use "root" as the username and password. Then we will click open to connect to the database and create a database called osTicket.
+Now we're going to make a connection and setup a database named osTicket using HeidiSQL. So we will launch HeidiSQL, create a new session and use "root" as the username and password. Then we will click open to connect to the database and create a database called osTicket.
 
 
 ![image](https://github.com/user-attachments/assets/5cb73461-1b92-4dfb-8abb-6d09ae3f678c)
