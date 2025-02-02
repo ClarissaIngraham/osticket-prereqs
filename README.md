@@ -49,7 +49,9 @@ This link will provide you with all the resources you will need to install osTic
   
 </p>
 <p>
-We will now enable IIS(Internet Information Services) which is a web server software, it allows you to deploy and manage websites. We are also going to enable CGI(Common Gateway Interface), this interface helps web servers to interact with other software like scripts. So to enable them you are going to navigate to the control panel > click on uninstall a program. Then on the left side of the screen you're going to click Turn Windows features on or off. When a window pops up, you're going to check the box that has IIS(Internet Information Services). You will now expand the IIS box and navigate to CGI as follows. World Wide Services > Applications Development Features > CGI.
+We will now enable IIS(Internet Information Services) which is a web server software, it allows you to deploy and manage websites. We are also going to enable CGI(Common Gateway Interface), this interface helps web servers to interact with other software like scripts. 
+
+So to enable them you are going to navigate to the control panel > click on uninstall a program. Then on the left side of the screen you're going to click Turn Windows features on or off. When a window pops up, you're going to check the box that has IIS(Internet Information Services). You will now expand the IIS box and navigate to CGI as follows. World Wide Services > Applications Development Features > CGI.
 
 <br />
 
@@ -72,9 +74,6 @@ Next we will install osTicket from the osTicket installation files folder and ex
 <br />
 
 ![image](https://github.com/user-attachments/assets/2d7a937d-c3cd-4843-8da4-bf2d5a99f3a5)
-<br />
-
-
 
 
 We will now load the osTicket site in our web browser. Open the IIS manager and restart the server. Then in IIS manager you will navigate to Sites > Default > osTicket. On the right will click “Browse *:80” and that will open the osTicket web browser.
@@ -93,7 +92,9 @@ Then we will go back into IIS manager and enable some extentions that was not en
 <br />
 
 
-Now we're going to rename a file that's inside the osTicket folder which is (C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php) to (C:\inetpub\wwwroot\osTicket\include\ost-config.php). Then we will make sure osTicket has access to make changes to this folder as well. To do this we will disable inheritance from the Advanced Security Settings section in the ostconfig.php file and set new permission to grant full access to "everyone."
+Now we're going to rename a file that's inside the osTicket folder which is (C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php) to (C:\inetpub\wwwroot\osTicket\include\ost-config.php). Then we will make sure osTicket has access to make changes to this folder as well. 
+
+To do this we will disable inheritance from the Advanced Security Settings section in the ostconfig.php file and set new permission to grant full access to "everyone."
 
 
 ![image](https://github.com/user-attachments/assets/bccd2cad-e4cd-4a6a-a5ca-f31300370543)
